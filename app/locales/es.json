@@ -31,11 +31,11 @@
         "intensity": {
             "increase": "aumentos",
             "decrease": "disminuye",
-            "max": "max"
+            "max": "máximo"
         },
         "action": {
-            "on": "enciende",
-            "off": "apagar"
+            "on": "Encender",
+            "off": "Apagar"
         }
     },
     "commands": {
@@ -61,8 +61,8 @@
             "description": "Despierta el sistema."
         },
         "debug": {
-            "text": "Opciones",
-            "voice": "Opciones",
+            "text": "Depurar",
+            "voice": "Depurar",
             "description": "Muestra información de depuración."
         },
         "map_show": {
@@ -101,9 +101,9 @@
             "description": "Busca una imagen."
         },
         "video_stop": {
-            "text": "Stop video",
-            "voice": "stop (the) video",
-            "description": "Stops the playback of video content."
+            "text": "Detener el video",
+            "voice": "Detener video",
+            "description": "Detiene la reproducción del video."
         },
         "image_giphy": {
             "text": "Busca animacion de _______",
@@ -126,14 +126,14 @@
             "description": "Recuerdame hacer una tarea."
         },
         "reminder_clear": {
-            "text": "Limpia la tareas pendientes",
-            "voice": "Limpia la tareas pendientes",
-            "description": "Limpia la tareas pendientes."
+            "text": "Borrar las tareas pendientes",
+            "voice": "Borra las tareas pendientes",
+            "description": "Borra las tareas pendientes."
         },
         "reminder_show": {
-            "text": "Muéstrame la lista de retiro",
-            "voice": "Muéstrame la lista de retiro",
-            "description": "Muestra la lista de retiro."
+            "text": "Muéstrame la lista de tareas",
+            "voice": "Muéstrame la lista de tareas",
+            "description": "Muestra la lista de tareas."
         },
         "time_show": {
             "text": "¿Qué hora es?",
@@ -151,9 +151,9 @@
             "description": "Muestra el temporizador."
         },
         "timer_stop": {
-            "text": "Para temporizador",
-            "voice": "para (el) temporizador",
-            "description": "Para el temporizador."
+            "text": "Parar temporizador",
+            "voice": "parar (el) temporizador",
+            "description": "Parar el temporizador."
         },
         "timer_resume": {
             "text": "Continua temporizador",
@@ -161,28 +161,28 @@
             "description": "Continua el temporizador."
         },
         "sc_play": {
-            "text": "SoundCloud play ________",
-            "voice": "SoundCloud play *query",
-            "description": "Play a song on SoundCloud."
+            "text": "Escuchar ________",
+            "voice": "Escuchar *query",
+            "description": "Reproduce una canción en SoundCloud."
         },
         "sc_pause": {
-            "text": "SoundCloud pause/stop",
-            "voice": "SoundCloud (pause)(post)(stop)(stock)",
-            "description": "Stop/pause SoundCoud playback."
+            "text": "Pausar",
+            "voice": "pausar música",
+            "description": "Hace una pausa en la música."
         },
         "sc_resume": {
-            "text": "SoundCloud play",
-            "voice": "SoundCloud (play)(resume)",
-            "description": "Resumes playback."
+            "text": "Continuar música",
+            "voice": "Continuar música",
+            "description": "Continúa la música."
         },
         "sc_replay": {
-            "text": "SoundCloud replay",
-            "voice": "SoundCloud replay",
-            "description": "Replays the current song on SoundCloud."
+            "text": "Repetir cancion",
+            "voice": "Repetir canción",
+            "description": "Repite la cancion anterior."
         },
         "light_action": {
             "text": "[estado] las luces a [acción]",
-            "voice": ":state las luces a *action",
+            "voice": ":luces *action",
             "description": "Cambia el estado de las luces."
         }
     },
@@ -192,12 +192,11 @@
         "batteryStatus": "Estado de la batería: ",
         "today": "Hoy",
         "steps": "Pasos",
-        "averageSteps": "Pasos al día",
         "caloriesBurned": "Calorías quemadas",
         "lastSync": "Última sincronización",
         "average": "Promedio",
-        "activeMinutes": "Minutos activos",
-        "distance": "km",
+        "activeMinutes": "Minutos activo",
+        "distance": "Distancia",
         "floors": "Pisos",
         "topBadges": "Las mejores insignias",
         "sleep": "Dormir",
@@ -207,8 +206,8 @@
         "hours": "horas",
         "km": "km",
         "miles": "mi",
-        "minutes": "min",
-        "times": "x",
+        "minutes": "minutos",
+        "times": "veces",
         "restingHR": "Frecuencia cardíaca en reposo",
         "bpm": "bpm"
     }
